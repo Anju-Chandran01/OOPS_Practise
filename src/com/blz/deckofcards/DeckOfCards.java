@@ -31,7 +31,7 @@ public class DeckOfCards {
     //METHOD TO PRINT CARDS RECEIVED BY FOUR PLAYERS
     private void getPlayers() {
         for(int i = 0; i < 4; i++){
-            System.out.println("   Player" + (i + 1));
+            System.out.println("    Player" + (i + 1));
             System.out.println("-------------");
             for (int j = 0; j < 9; j++){
                 Random random = new Random();
